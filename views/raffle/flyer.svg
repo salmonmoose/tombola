@@ -93,9 +93,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-205.86773"
-     inkscape:cy="276.97106"
+     inkscape:zoom="1.4"
+     inkscape:cx="229.65024"
+     inkscape:cy="259.43306"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -105,11 +105,11 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-width="1523"
+     inkscape:window-height="1361"
+     inkscape:window-x="947"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
     <sodipodi:guide
        position="21.259842,21.259842"
        orientation="0,1"
@@ -195,10 +195,6 @@
        orientation="1,0"
        id="guide4271" />
     <sodipodi:guide
-       position="21.259842,21.259842"
-       orientation="-0.70710678,0.70710678"
-       id="guide4293" />
-    <sodipodi:guide
        position="65.108266,721.50588"
        orientation="1,0"
        id="guide4299" />
@@ -275,10 +271,6 @@
        orientation="0,1"
        id="guide4337" />
     <sodipodi:guide
-       position="372.04723,21.259842"
-       orientation="0.70710678,0.70710678"
-       id="guide4341" />
-    <sodipodi:guide
        position="372.04723,765.35431"
        orientation="-0.70710678,0.70710678"
        id="guide4343" />
@@ -298,6 +290,26 @@
        position="350.12301,743.43009"
        orientation="1,0"
        id="guide4351" />
+    <sodipodi:guide
+       position="328.19881,372.04724"
+       orientation="-0.70710678,0.70710678"
+       id="guide4696" />
+    <sodipodi:guide
+       position="174.72933,218.57775"
+       orientation="1,0"
+       id="guide4698" />
+    <sodipodi:guide
+       position="65.108266,372.04724"
+       orientation="0.70710678,0.70710678"
+       id="guide4700" />
+    <sodipodi:guide
+       position="218.57775,218.57775"
+       orientation="1,0"
+       id="guide4702" />
+    <sodipodi:guide
+       position="174.72933,218.57776"
+       orientation="0,1"
+       id="guide4743" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -317,14 +329,9 @@
      id="layer1"
      transform="translate(0,-265.74803)">
     <path
-       inkscape:connector-curvature="0"
-       id="path4165"
-       d="m 10.629906,276.37793 372.047244,0 0,765.35437 -372.047244,0 z"
-       style="fill:#1e5699;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 21.259828,265.74805 0,786.61415"
-       id="path4173"
+       d="m 393.30707,287.0079 -393.307085258789,0"
+       id="path4177"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -333,14 +340,19 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 393.30707,287.0079 -393.307085258789,0"
-       id="path4177"
+       d="m 21.259828,265.74805 0,786.61415"
+       id="path4173"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 372.04723,265.74805 0,786.61415"
        id="path4179"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4165"
+       d="m 10.629906,276.37793 372.047244,0 0,765.35437 -372.047244,0 z"
+       style="fill:#1e5699;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <g
        transform="matrix(0.71241561,0,0,0.71241561,11.199122,-191.9702)"
        id="g6400">
@@ -459,7 +471,7 @@
            y="-3.7994821"
            style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.2593708px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
-         id="flowPara5826-6-1-6-5">{{=response.hash1}}-{{=response.hash2}}-{{=response.hash3}}-{{=response.hash4}}</flowPara></flowRoot>    <flowRoot
+         id="flowPara5826-6-1-6-5">{{=hash1}}-{{=hash2}}-{{=hash3}}-{{=hash4}}</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot6919-2-4-7-5-6-4"
        style="font-style:normal;font-weight:normal;font-size:51.15240097px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -483,5 +495,201 @@
        height="430.51181"
        width="765.35437"
        transform="matrix(0,-1,-1,0,0,0)" />
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5"
+       style="font-style:normal;font-weight:normal;font-size:43.83473587px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-19.984925"
+       inkscape:transform-center-y="-1.0518283"
+       transform="matrix(0.89583357,0,0,0.89583357,59.215616,495.8053)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1"><rect
+           id="rect6923-4-6-8-1-7-6-1"
+           width="346.62354"
+           height="29.589251"
+           x="-19.897387"
+           y="-4.1179729"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:23.18787384px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara5826-6-1-6-5-6-6">Celebrate Fogged's new look!</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-0"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:23.1875px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-28.458466"
+       inkscape:transform-center-y="-1.4978103"
+       transform="matrix(1.2756642,0,0,1.2756642,55.594772,538.29341)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-9"><rect
+           id="rect6923-4-6-8-1-7-6-9"
+           width="261.06433"
+           height="59.724041"
+           x="-19.897387"
+           y="-4.1179729"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:23.1875px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara4427"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle">For every bottle purchased you will receive an entry into the draw to win one of the following:</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0"
+       style="font-style:normal;font-weight:normal;font-size:39.26862717px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-14.544452"
+       inkscape:transform-center-y="-0.76549453"
+       transform="matrix(0.72777117,0,0,0.72777117,42.880576,602.47379)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6"><rect
+           id="rect6923-4-6-8-1-7-6-1-6"
+           width="425.19461"
+           height="120.53051"
+           x="-1.7931737"
+           y="-5.2066369"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20.7724762px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara5826-6-1-6-5-6-6-2"></flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20.7724762px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4535">Admodus Stride 80W Box Mod - in Blue</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20.7724762px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4537">+ 30mL of each Fogged Artisan Juice</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20.7724762px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4533" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9"
+       style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-14.544452"
+       inkscape:transform-center-y="-0.76549453"
+       transform="translate(44.452712,707.465)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3"
+           width="309.44357"
+           height="91.214188"
+           x="-2.5054157"
+           y="-3.5163245"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11760902px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara5826-6-1-6-5-6-6-2-1">Smok TFV8 Cloud Beast Tank - in Blue</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11760902px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4539">+ 30mL of each Fogged Artisan Juice</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9-2"
+       style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-14.544452"
+       inkscape:transform-center-y="-0.76549453"
+       transform="translate(43.184858,768.01082)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9-3"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3-9"
+           width="311.23853"
+           height="33.969944"
+           x="-2.5054157"
+           y="-3.5163245"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11760902px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara5826-6-1-6-5-6-6-2-1-4" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9-6"
+       style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-14.544452"
+       inkscape:transform-center-y="-0.76549453"
+       transform="translate(45.124295,804.61036)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9-5"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3-7"
+           width="308.17572"
+           height="20.214735"
+           x="-2.5054157"
+           y="-3.5163245"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11760902px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4570">30mL of each Fogged Artisan Juice</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9-6-1"
+       style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-14.544452"
+       inkscape:transform-center-y="-0.76549453"
+       transform="translate(47.319544,593.94587)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-9"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3-7-6"
+           width="308.17572"
+           height="20.214735"
+           x="-2.5054157"
+           y="-3.5163245"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11760902px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4570-6">1st Prize $185 RRP</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9-6-1-5"
+       style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-14.544452"
+       inkscape:transform-center-y="-0.76549453"
+       transform="translate(44.487821,682.01334)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-9-5"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3-7-6-0"
+           width="308.17572"
+           height="20.214735"
+           x="-2.5054157"
+           y="-3.5163245"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11760902px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4570-6-6">2nd Prize $129 RRP</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9-6-1-6"
+       style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-14.544452"
+       inkscape:transform-center-y="-0.76549453"
+       transform="translate(43.905701,769.20511)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-9-3"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3-7-6-1"
+           width="308.17572"
+           height="20.214735"
+           x="-2.5054157"
+           y="-3.5163245"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11760902px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4570-6-66">3rd Prize $185 RRP</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9-6-5"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11750031px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-14.142385"
+       inkscape:transform-center-y="-0.74433376"
+       transform="matrix(0.97235603,0,0,0.97235603,67.200726,834.62071)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-0"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3-7-2"
+           width="243.92676"
+           height="61.863537"
+           x="-2.5054157"
+           y="-3.5163245"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11750031px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara4660"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.41608524px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start">Banana Evolution</flowPara><flowPara
+         id="flowPara4662"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.41608524px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start">Cola Cola Baby</flowPara><flowPara
+         id="flowPara4664"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.41608524px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start">Lemon Blondies</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9-6-5-8"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.69959259px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-10.679686"
+       inkscape:transform-center-y="-0.56208735"
+       transform="matrix(0.75515471,0,0,0.75515471,149.53588,632.43785)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-0-1"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3-7-2-6"
+           width="237.18365"
+           height="60.153381"
+           x="-0.45527121"
+           y="262.32797"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.69959259px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara4664-3"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.70000076px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:end;writing-mode:lr-tb;text-anchor:end">Love Lost</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.70000076px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:end;writing-mode:lr-tb;text-anchor:end"
+         id="flowPara4739">Princess and the Hatter</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.70000076px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:end;writing-mode:lr-tb;text-anchor:end"
+         id="flowPara4741">Two to Mango</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6919-2-4-7-5-6-4-5-0-9-6-1-6-0"
+       style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-15.973757"
+       inkscape:transform-center-y="-0.84072426"
+       transform="matrix(1.0982717,0,0,1.0982717,30.36607,898.98699)"><flowRegion
+         id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-9-3-1"><rect
+           id="rect6923-4-6-8-1-7-6-1-6-3-7-6-1-6"
+           width="308.17572"
+           height="20.214735"
+           x="-2.5054157"
+           y="-3.5163245"
+           style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11760902px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
+         id="flowPara4570-6-66-5">Visit our website and enter this code</flowPara></flowRoot>  </g>
 </svg>

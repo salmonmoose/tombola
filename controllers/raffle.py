@@ -57,7 +57,7 @@ def make_flyers():
 		hashparts = [flyer_key['secret_key'][i:i+4] for i in range(0, len(flyer_key['secret_key']), 4)]
 
 		open(filename, 'wb').write(
-			response.render('raffle/test.html',
+			response.render('raffle/flyer.svg',
 				dict(
 					hash1=hashparts[0],
 					hash2=hashparts[1],
@@ -68,7 +68,7 @@ def make_flyers():
 			)
 
 
-	return response.render('raffle/test.html', dict(
+	return response.render('raffle/flyer.svg', dict(
 			hash1=hashparts[0],
 			hash2=hashparts[1],
 			hash3=hashparts[2],
