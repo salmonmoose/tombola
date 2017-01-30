@@ -67,6 +67,10 @@ def make_flyers():
 				)
 			)
 
+		flyer_key.update_record(
+			released=True
+			)
+
 
 	return response.render('raffle/flyer.svg', dict(
 			hash1=hashparts[0],
