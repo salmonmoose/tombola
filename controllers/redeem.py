@@ -3,12 +3,27 @@ import binascii
 
 def index():
 	form = SQLFORM.factory(
-		Field('hash1', 'string'),
-		Field('hash2', 'string'),
-		Field('hash3', 'string'),
-		Field('hash4', 'string'),
-		Field('email', 'string'),
-		Field('email_confirm', 'string'),
+		Field('hash1', 'string',
+			length=4,
+			),
+		Field('hash2', 'string',
+			length=4
+			),
+		Field('hash3', 'string',
+			length=4
+			),
+		Field('hash4', 'string',
+			length=4
+			),
+		Field('email', 'string',
+			requires=IS_EMAIL()
+			),
+		Field('email_confirm', 'string',
+			requires=IS_EXPR(
+				'value==%s' % repr(request.vars.get('email', None)),
+				error_message="emails do not match",
+				)
+			),
 	)
 
 	if form.process().accepted:
@@ -24,14 +39,12 @@ def index():
 			).select().first()
 
 		if secret_key is None:
-			#this key doesn't exist
-			pass
+			response.flash = T("unknown key")
 
 		#TODO: requests from a single IP should be rate limited.
 
 		elif secret_key['redeemed']:
-			#this key has already been validated.
-			pass
+			response.flash =T("key has already been redeemed")
 		else:
 			secret_key.update_record(
 				redeemed=True
@@ -43,7 +56,5 @@ def index():
 				ip_address = request.vars.client,
 				browser_hash = hashlib.sha1(request.env.http_user_agent).hexdigest()
 				)
-
-			pass
 
 	return locals()

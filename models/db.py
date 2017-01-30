@@ -143,6 +143,7 @@ db.define_table(
         ),
     Field('raffle', 'reference raffle'),
     Field('tag', 'string'),
+    Field('released', 'boolean'),
     Field('redeemed', 'boolean'),
     )
 

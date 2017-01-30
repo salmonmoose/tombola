@@ -1,3 +1,4 @@
+@auth.requires_membership("admin")
 def index():
 	grid = SQLFORM.grid(
 		db.entry,

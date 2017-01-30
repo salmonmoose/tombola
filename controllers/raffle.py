@@ -2,7 +2,9 @@ import random
 import hashlib
 import binascii
 import struct
+import os
 
+@auth.requires_membership("admin")
 def index():
 	grid = SQLFORM.grid(
 		db.raffle,
@@ -13,6 +15,7 @@ def index():
 
 	return locals()
 
+@auth.requires_membership("admin")
 def make_keys():
 	form = SQLFORM.factory(
 		Field('raffle', 'reference raffle',
@@ -34,6 +37,44 @@ def make_keys():
 
 	return dict(grid=form)
 
+@auth.requires_membership("admin")
+def make_flyers():
+	flyer_keys = db(
+		(db.secret_key.released == False)
+		).select()
+
+	tempfolder = os.path.join(request.folder, 'temp')
+
+	if not os.path.exists(tempfolder):
+		os.makedirs(tempfolder)
+
+	for flyer_key in flyer_keys:
+		filename = os.path.join(
+			tempfolder,
+			'%s.svg' % (flyer_key['secret_key'])
+			)
+
+		hashparts = [flyer_key['secret_key'][i:i+4] for i in range(0, len(flyer_key['secret_key']), 4)]
+
+		open(filename, 'wb').write(
+			response.render('raffle/test.html',
+				dict(
+					hash1=hashparts[0],
+					hash2=hashparts[1],
+					hash3=hashparts[2],
+					hash4=hashparts[3],
+					)
+				)
+			)
+
+
+	return response.render('raffle/test.html', dict(
+			hash1=hashparts[0],
+			hash2=hashparts[1],
+			hash3=hashparts[2],
+			hash4=hashparts[3],
+		))
+
 def __generate_key(raffle, tag):
 	valid_key = False
 
@@ -54,7 +95,8 @@ def __generate_key(raffle, tag):
 				secret_key=temp_key,
 				raffle=raffle,
 				tag=tag,
-				redeemed=False
+				released=False,
+				redeemed=False,
 				)
 
 			valid_key = True
