@@ -94,8 +94,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="229.65024"
-     inkscape:cy="259.43306"
+     inkscape:cx="166.3666"
+     inkscape:cy="332.84154"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -104,12 +104,14 @@
      inkscape:bbox-nodes="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-midpoints="false"
      inkscape:window-width="1523"
      inkscape:window-height="1361"
      inkscape:window-x="947"
      inkscape:window-y="0"
-     inkscape:window-maximized="0">
+     inkscape:window-maximized="0"
+     inkscape:snap-text-baseline="false"
+     inkscape:snap-bbox-edge-midpoints="true">
     <sodipodi:guide
        position="21.259842,21.259842"
        orientation="0,1"
@@ -291,10 +293,6 @@
        orientation="1,0"
        id="guide4351" />
     <sodipodi:guide
-       position="328.19881,372.04724"
-       orientation="-0.70710678,0.70710678"
-       id="guide4696" />
-    <sodipodi:guide
        position="174.72933,218.57775"
        orientation="1,0"
        id="guide4698" />
@@ -310,6 +308,30 @@
        position="174.72933,218.57776"
        orientation="0,1"
        id="guide4743" />
+    <sodipodi:guide
+       position="372.04723,284.35039"
+       orientation="-0.70710678,0.70710678"
+       id="guide4785" />
+    <sodipodi:guide
+       position="350.12301,262.42617"
+       orientation="0,1"
+       id="guide4787" />
+    <sodipodi:guide
+       position="372.04723,372.04724"
+       orientation="-0.70710678,0.70710678"
+       id="guide4789" />
+    <sodipodi:guide
+       position="372.04723,458.41534"
+       orientation="-0.70710678,0.70710678"
+       id="guide4791" />
+    <sodipodi:guide
+       position="350.12302,436.49113"
+       orientation="0,1"
+       id="guide4793" />
+    <sodipodi:guide
+       position="350.12301,350.12302"
+       orientation="0,1"
+       id="guide4795" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -531,7 +553,7 @@
        style="font-style:normal;font-weight:normal;font-size:39.26862717px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-14.544452"
        inkscape:transform-center-y="-0.76549453"
-       transform="matrix(0.72777117,0,0,0.72777117,42.880576,602.47379)"><flowRegion
+       transform="matrix(0.72777117,0,0,0.72777117,42.880576,616.14398)"><flowRegion
          id="flowRegion6921-8-6-1-8-5-5-1-6"><rect
            id="rect6923-4-6-8-1-7-6-1-6"
            width="425.19461"
@@ -539,8 +561,6 @@
            x="-1.7931737"
            y="-5.2066369"
            style="fill:#cef0eb;fill-opacity:1" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20.7724762px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
-         id="flowPara5826-6-1-6-5-6-6-2"></flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20.7724762px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
          id="flowPara4535">Admodus Stride 80W Box Mod - in Blue</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20.7724762px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1"
@@ -552,7 +572,7 @@
        style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-14.544452"
        inkscape:transform-center-y="-0.76549453"
-       transform="translate(44.452712,707.465)"><flowRegion
+       transform="translate(44.452712,702.23819)"><flowRegion
          id="flowRegion6921-8-6-1-8-5-5-1-6-9"><rect
            id="rect6923-4-6-8-1-7-6-1-6-3"
            width="309.44357"
@@ -584,7 +604,7 @@
        style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-14.544452"
        inkscape:transform-center-y="-0.76549453"
-       transform="translate(45.124295,804.61036)"><flowRegion
+       transform="translate(45.124295,789.93504)"><flowRegion
          id="flowRegion6921-8-6-1-8-5-5-1-6-9-5"><rect
            id="rect6923-4-6-8-1-7-6-1-6-3-7"
            width="308.17572"
@@ -599,7 +619,7 @@
        style="font-style:normal;font-weight:normal;font-size:28.57857513px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-14.544452"
        inkscape:transform-center-y="-0.76549453"
-       transform="translate(47.319544,593.94587)"><flowRegion
+       transform="translate(44.487821,595.14016)"><flowRegion
          id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-9"><rect
            id="rect6923-4-6-8-1-7-6-1-6-3-7-6"
            width="308.17572"
@@ -644,7 +664,7 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.11750031px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-14.142385"
        inkscape:transform-center-y="-0.74433376"
-       transform="matrix(0.97235603,0,0,0.97235603,67.200726,834.62071)"><flowRegion
+       transform="matrix(0.97235603,0,0,0.97235603,67.200726,812.69651)"><flowRegion
          id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-0"><rect
            id="rect6923-4-6-8-1-7-6-1-6-3-7-2"
            width="243.92676"
@@ -663,7 +683,7 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.69959259px;line-height:125%;font-family:'Montserrat Alternates';-inkscape-font-specification:'Montserrat Alternates, Medium';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#cef0eb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-10.679686"
        inkscape:transform-center-y="-0.56208735"
-       transform="matrix(0.75515471,0,0,0.75515471,149.53588,632.43785)"><flowRegion
+       transform="matrix(0.75515471,0,0,0.75515471,149.53587,610.51364)"><flowRegion
          id="flowRegion6921-8-6-1-8-5-5-1-6-9-5-0-1"><rect
            id="rect6923-4-6-8-1-7-6-1-6-3-7-2-6"
            width="237.18365"
