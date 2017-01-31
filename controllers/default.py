@@ -74,7 +74,7 @@ def index():
 
             response.flash = T("good luck")
     else:
-        print "not accepted"
+        pass
 
     return dict(form=form)
 
