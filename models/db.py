@@ -154,3 +154,10 @@ db.define_table(
     Field('ip_address', 'string'),
     Field('browser_hash', 'string'),
     )
+
+############ FORCED SSL #############
+if not request.is_local:
+    session.secure()
+    if not request.is_https:
+        redirect('https://%s/%s' % (request.env.http_host, request.application))
+#####################################
