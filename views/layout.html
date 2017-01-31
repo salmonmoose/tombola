@@ -47,7 +47,9 @@
   <body>
     <!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
     <div class="w2p_flash alert alert-dismissable">{{=response.flash or ''}}</div>
+    {{if not request.empty_page:}}    
     <!-- Navbar ======================================= -->
+
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -69,38 +71,22 @@
         </div>
       </div>
     </nav>
+    {{pass}}
     <!-- Masthead ===================================== -->    
-    {{block header}}
-    {{end}}
+
     <!-- Main ========================================= -->
     <!-- Begin page content -->
+    {{if not request.empty_page:}}
     <div class="container-fluid main-container">
-      {{if left_sidebar_enabled:}}
-        <div class="col-md-3 left-sidebar">
-            {{block left_sidebar}}
-            <h3>Left Sidebar</h3>
-            <p></p>
-            {{end}}
-        </div>
-      {{pass}}
-
-      <div class="{{=middle_column}}">
         {{block center}}
+    {{pass}}
         {{include}}
+    {{if not request.empty_page:}}
         {{end}}
-      </div>
-
-      {{if right_sidebar_enabled:}}
-        <div class="col-md-3">
-            {{block right_sidebar}}
-            <h3>Right Sidebar</h3>
-            <p></p>
-            {{end}}
-        </div>
-      {{pass}}
-
     </div>
+    {{pass}}
 
+    {{if not request.empty_page:}}
     {{block footer}} <!-- this is default footer -->      
     <footer class="footer">
       <div class="container-fluid">
@@ -112,6 +98,7 @@
       </div>
     </footer>
     {{end}}
+    {{pass}}
     <!-- The javascript =============================== -->
     <script src="{{=URL('static','js/bootstrap.min.js')}}"></script>
     <script src="{{=URL('static','js/web2py-bootstrap3.js')}}"></script>
